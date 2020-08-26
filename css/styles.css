@@ -21,6 +21,10 @@ header {
   height: 100%;
 }
 
+.absolute {
+  position: absolute;
+}
+
 /* ------------------- Backgrounds -------------------- */
 
 .bg-white {
@@ -37,6 +41,10 @@ header {
 
 .bg-gray03 {
   background-color: rgb(99, 97, 97);
+}
+
+.bg-gray05 {
+  background-color: #000000;
 }
 
 /* ------------------- Borders -------------------- */
@@ -94,3 +102,36 @@ header {
 }
 
 /* ------------------- Main -------------------- */
+main {
+  width: 100vw;
+}
+
+.container-first {
+  position: relative;
+  height: 100vh;
+}
+
+.first {
+  width: 50%;
+}
+
+.title {
+  left: calc((100% - 300px) /2);
+  top: 45px;
+  height: 70px;
+  width: 300px;
+}
+
+.title2 {
+  left: calc((100% - 150px) /2);
+  top: 100px;
+  height: 70px;
+  width: 150px;
+}
+
+.container-button {
+  top: 45px;
+  right: 55px;
+  width: 200px;
+  height: 55px;
+}
