@@ -13,6 +13,10 @@ header {
   justify-content: center;
 }
 
+.d-grid {
+  display: grid;
+}
+
 .d-flex {
   display: flex;
 }
@@ -74,6 +78,10 @@ header {
   background-color: #333333;
 }
 
+.bg-gray06 {
+  background-color: rgb(85, 83, 83);
+}
+
 .bg-gray05 {
   background-color: #000000;
 }
@@ -132,18 +140,25 @@ header {
   background-color: rgb(99, 97, 97);
 }
 
-/* ------------------- Main -------------------- */
-main {
-  width: 100vw;
+/* ------------------------------------------------------------- Main ------------------------------------------------------------------- */
+
+/* -------------------------------- First block ---------------------------- */
+
+.container-above {
+  margin: 190px 0 0 36px;
+}
+
+.container-below {
+  margin: 40px 0 0 36px;
 }
 
 .container-first {
   position: relative;
-  height: 24rem;
+  height: 100vh;
 }
 
-.first {
-  padding: 235px 5vw 7em;
+.container-second {
+  height: 80vh;
 }
 
 .title {
@@ -226,4 +241,11 @@ main {
   width: 40px;
   border-color: white;
   margin-top: 100px;
+}
+
+/* -------------------------------- Second block ---------------------------- */
+
+.grid-container {
+  grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
 }
