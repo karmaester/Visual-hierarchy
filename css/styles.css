@@ -113,17 +113,18 @@ main {
 
 .first {
   width: 50%;
+  padding: 10em 5vw 7em;
 }
 
 .title {
-  left: calc((100% - 300px) /2);
+  left: calc((100% - 300px) / 2);
   top: 45px;
   height: 70px;
   width: 300px;
 }
 
 .title2 {
-  left: calc((100% - 150px) /2);
+  left: calc((100% - 150px) / 2);
   top: 100px;
   height: 70px;
   width: 150px;
@@ -134,4 +135,18 @@ main {
   right: 55px;
   width: 200px;
   height: 55px;
+}
+
+.upper {
+  height: 100px;
+  width: 400px;
+}
+
+.square {
+  width: 100px;
+  transform: rotate(-20deg);
+}
+
+.square:hover {
+  transform: none;
 }
