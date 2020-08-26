@@ -37,6 +37,10 @@ header {
   height: 40px;
 }
 
+.h-50 {
+  height: 70px;
+}
+
 .h-25 {
   height: 25px;
 }
@@ -61,8 +65,16 @@ header {
   width: 50%;
 }
 
+.w-35 {
+  width: 35%;
+}
+
 .m-bottom {
   margin-bottom: 20px;
+}
+
+.m-top {
+  margin-top: 35px;
 }
 
 .m-around {
@@ -257,29 +269,30 @@ header {
 /* -------------------------------- Second block ---------------------------- */
 
 .grid-container {
+  margin: 25px 15px 25px 15px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3,97vh);
-  row-gap: 3vh;
+  grid-template-rows: repeat(3, 97vh);
+  row-gap: 50px;
 }
 
 .area-1 {
   grid-column-start: 1;
-  grid-column-end: 3; 
-  grid-row-start: 2; 
-  grid-row-end: 3; 
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .area-2 {
   grid-column-start: 3;
-  grid-column-end: 5; 
-  grid-row-start: 3; 
-  grid-row-end: 4; 
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .grow:hover {
-  transform: scale(1.05, 1.05); background-color: gray;
-} 
-
+  transform: scale(1.05, 1.05);
+  background-color: gray;
+}
 
 .container-blog {
   flex-direction: column;
@@ -289,4 +302,16 @@ header {
 
 .container-blog span {
   margin-left: 0;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 35px;
+}
+
+.article-h1 {
+  height: 60px;
+  width: 400px;
 }
