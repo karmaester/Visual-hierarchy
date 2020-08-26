@@ -43,6 +43,10 @@ header {
   background-color: rgb(99, 97, 97);
 }
 
+.bg-gray04 {
+  background-color: #333333;
+}
+
 .bg-gray05 {
   background-color: #000000;
 }
@@ -135,6 +139,14 @@ main {
   right: 55px;
   width: 200px;
   height: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 25%;
+  height: 80%;
+  transform: rotate(-20deg);
 }
 
 .upper {
@@ -149,4 +161,8 @@ main {
 
 .square:hover {
   transform: none;
+}
+.button {
+  width: 70%;
+  height: 80%;
 }
