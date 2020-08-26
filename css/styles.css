@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  align-items: center;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+/* ------------------- Backgrounds -------------------- */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray01 {
+  background-color: rgb(170, 168, 168);
+}
+
+.bg-gray02 {
+  background-color: gray;
+}
+
+.bg-gray03 {
+  background-color: rgb(99, 97, 97);
+}
+
+/* ------------------- Borders -------------------- */
+
+.border-8 {
+  border-radius: 8px;
+}
+
+.border-12 {
+  border-radius: 12px;
+}
+
+/* ------------------- Header -------------------- */
+
+.logo {
+  width: 16%;
+}
+
+.logo div {
+  height: 55px;
+  width: 80%;
+}
+
+.main-nav {
+  width: 56%;
+}
+
+.search {
+  width: 28%;
+}
+
+.search input {
+  width: 85%;
+  height: 65%;
+}
+
+.nav-item {
+  width: 65px;
+  height: 20px;
+}
+
+.nav-li {
+  margin: auto;
+  list-style: none;
+  height: 55px;
+  width: 85px;
+}
+
+.nav-li:hover {
+  background-color: gray;
+}
+
+.nav-li-special:hover {
+  background-color: rgb(99, 97, 97);
+}
+
+/* ------------------- Main -------------------- */
