@@ -7,8 +7,8 @@
     <title>Visual Hierarchy</title>
   </head>
   <body>
-    <header class="d-flex bg-gray01">
-      <div class="height-100 logo centered d-flex">
+    <header class="d-flex bg-gray01 w-100">
+      <div class="h-100 logo centered d-flex">
         <div class="bg-gray03 border-12"></div>
       </div>
       <nav class="main-nav">
@@ -36,7 +36,7 @@
           </li>
         </ul>
       </nav>
-      <div class="search height-100 centered d-flex">
+      <div class="search h-100 centered d-flex">
         <input class="border-12" type="search" />
       </div>
     </header>
@@ -44,19 +44,62 @@
       <section class="container-first d-flex">
         <h1 class="title bg-gray05 absolute"></h1>
         <h2 class="title2 bg-gray05 absolute"></h2>
-        <div class="container-button absolute d-flex">
-          <div class="icon bg-white"></div>
-          <div class="button bg-white"></div>
+        <div class="container-button h-40 absolute d-flex">
+          <div class="icon rotate border-12 bg-white"></div>
+          <div class="button border-8 bg-white"></div>
         </div>
-        <articles class="first height-100 bg-gray03">
+        <articles class="first w-50 h-100 bg-gray03">
           <div class="upper d-flex">
-            <div class="square bg-gray01 height-100"></div>
-            <div class="name"></div>
+            <div class="square rotate bg-gray04 border-12"></div>
+            <div class="name bg-gray01 border-8"></div>
           </div>
-          <h2 class="main-articles"></h2>
-          <h2 class="main-articles"></h2>
+          <div class="main-article-info w-100 h-100">
+            <h2 class="main-articles border-8 h-40 w-80 bg-gray04"></h2>
+            <h2 class="main-articles border-8 h-40 w-90 bg-gray04"></h2>
+            <div class="d-flex">
+              <h2 class="main-articles border-8 h-40 w-50 bg-gray04"></h2>
+              <span class="comment border-8 bg-white"></span>
+            </div>
+            <ul class="d-flex w-65 tags-container centered">
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+            </ul>
+            <div class="line"></div>
+          </div>
         </articles>
-        <articles class="first height-100 bg-gray02"></articles>
+        <articles class="first w-50 h-100 bg-gray02">
+          <div class="upper d-flex">
+            <div class="square rotate bg-gray04 border-12"></div>
+            <div class="name bg-gray01 border-8"></div>
+          </div>
+          <div class="main-article-info w-100 h-100">
+            <h2 class="main-articles border-8 h-40 w-80 bg-gray04"></h2>
+            <h2 class="main-articles border-8 h-40 w-90 bg-gray04"></h2>
+            <div class="d-flex">
+              <h2 class="main-articles border-8 h-40 w-50 bg-gray04"></h2>
+              <span class="comment border-8 bg-white"></span>
+            </div>
+            <ul class="d-flex w-65 tags-container centered">
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+              <li class="nav-li d-flex border-8 centered">
+                <div class="nav-item w-100 bg-white border-8"></div>
+              </li>
+            </ul>
+            <div class="line"></div>
+          </div>
+        </articles>
       </section>
     </main>
   </body>
