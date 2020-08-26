@@ -37,6 +37,10 @@ header {
   height: 40px;
 }
 
+.h-25 {
+  height: 25px;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -55,6 +59,14 @@ header {
 
 .w-50 {
   width: 50%;
+}
+
+.m-bottom {
+  margin-bottom: 20px;
+}
+
+.m-around {
+  margin: 30px 0 45px 0;
 }
 /* ------------------- Backgrounds -------------------- */
 
@@ -222,7 +234,6 @@ header {
 }
 
 .comment {
-  height: 25px;
   width: 130px;
   margin-left: 15px;
 }
@@ -247,5 +258,35 @@ header {
 
 .grid-container {
   grid-template-columns: repeat(4, 1fr);
-  height: 100vh;
+  grid-template-rows: repeat(3,97vh);
+  row-gap: 3vh;
+}
+
+.area-1 {
+  grid-column-start: 1;
+  grid-column-end: 3; 
+  grid-row-start: 2; 
+  grid-row-end: 3; 
+}
+
+.area-2 {
+  grid-column-start: 3;
+  grid-column-end: 5; 
+  grid-row-start: 3; 
+  grid-row-end: 4; 
+}
+
+.grow:hover {
+  transform: scale(1.05, 1.05); background-color: gray;
+} 
+
+
+.container-blog {
+  flex-direction: column;
+  margin: 20px auto auto 40px;
+  justify-content: space-around;
+}
+
+.container-blog span {
+  margin-left: 0;
 }
