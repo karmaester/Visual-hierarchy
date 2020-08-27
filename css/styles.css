@@ -57,6 +57,10 @@ header {
   height: 70px;
 }
 
+.h-50 {
+  height: 50%;
+}
+
 .h-25 {
   height: 25px;
 }
@@ -103,6 +107,10 @@ header {
 
 .m-left {
   margin-left: 25px;
+}
+
+.align-end {
+  justify-content: flex-end;
 }
 /* ------------------- Backgrounds -------------------- */
 
@@ -400,3 +408,21 @@ header {
 .special-margin {
   margin-left: 60px;
 }
+
+footer {
+  height: 600px;
+}
+
+.list-footer {
+  flex-wrap: wrap;
+}
+
+.f-lg {
+  flex-grow: 1;
+  /* padding: 50px 20px 25px 20px; */
+}
+
+.last {
+  list-style-type: none;
+}
+
