@@ -29,8 +29,16 @@ header {
   transform: rotate(-20deg);
 }
 
+.direction-column {
+  flex-direction: column;
+}
+
 .h-100 {
   height: 100%;
+}
+
+.h-200 {
+  height: 200px;
 }
 
 .h-40 {
@@ -295,7 +303,6 @@ header {
 }
 
 .container-blog {
-  flex-direction: column;
   margin: 20px auto auto 40px;
   justify-content: space-around;
 }
@@ -314,4 +321,24 @@ header {
 .article-h1 {
   height: 60px;
   width: 400px;
+}
+
+.load {
+  width: 200px;
+}
+
+.line2 {
+  border-bottom: 2px solid gray;
+  height: 10px;
+}
+
+.clicks {
+  height: 120vh;
+}
+
+.bigger-circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  margin-top: 35px;
 }
