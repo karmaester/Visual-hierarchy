@@ -112,6 +112,7 @@ header {
 .align-end {
   justify-content: flex-end;
 }
+
 /* ------------------- Backgrounds -------------------- */
 
 .bg-white {
@@ -131,7 +132,7 @@ header {
 }
 
 .bg-gray04 {
-  background-color: #333333;
+  background-color: #333;
 }
 
 .bg-gray06 {
@@ -139,7 +140,7 @@ header {
 }
 
 .bg-gray05 {
-  background-color: #000000;
+  background-color: #000;
 }
 
 /* ------------------- Borders -------------------- */
@@ -419,10 +420,8 @@ footer {
 
 .f-lg {
   flex-grow: 1;
-  /* padding: 50px 20px 25px 20px; */
 }
 
 .last {
   list-style-type: none;
 }
-
