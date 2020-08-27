@@ -37,6 +37,14 @@ header {
   height: 100%;
 }
 
+.h-80 {
+  height: 80%;
+}
+
+.h-350 {
+  height: 350px;
+}
+
 .h-200 {
   height: 200px;
 }
@@ -45,7 +53,7 @@ header {
   height: 40px;
 }
 
-.h-50 {
+.h-70 {
   height: 70px;
 }
 
@@ -93,7 +101,7 @@ header {
   margin: 30px 0 45px 0;
 }
 
-.m-left{
+.m-left {
   margin-left: 25px;
 }
 /* ------------------- Backgrounds -------------------- */
@@ -288,7 +296,7 @@ header {
 .grid-container {
   margin: 25px 15px 25px 15px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 800px);
+  grid-template-rows: repeat(3, 700px);
   row-gap: 50px;
 }
 
@@ -352,7 +360,7 @@ header {
   margin-top: 35px;
 }
 
-.grid-container2{
+.grid-container2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 300px);
 }
@@ -369,4 +377,26 @@ header {
 
 .bigger-square:hover {
   transform: none;
+}
+
+.book {
+  width: 237px;
+  height: 323px;
+  margin-top: -58px;
+  margin-left: 40%;
+}
+
+.book:hover {
+  transform: none;
+}
+
+.grid-container3 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px 770px;
+  gap: 30px;
+  margin: 70px 50px 0 50px;
+}
+
+.special-margin {
+  margin-left: 60px;
 }
